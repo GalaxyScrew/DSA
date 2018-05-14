@@ -8,4 +8,15 @@ DSA具体过程:
 
 stackoverflow的解决方案：https://stackoverflow.com/questions/8350568/dsa-how-to-generate-the-subprime
 
-![]https://github.com/GalaxyScrew/DSA/blob/master/method.png
+![](https://github.com/GalaxyScrew/DSA/blob/master/method.png)
+
+
+```
+命令行：g++ dsa.cpp -lssl -lcrypto -lgmp
+
+注意：安装openssl和gmp
+ubuntu下：
+sudo apt-get install libssl-dev
+
+sudo apt-get install libgmp-dev
+```
